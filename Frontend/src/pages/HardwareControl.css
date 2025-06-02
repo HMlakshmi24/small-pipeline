@@ -1,0 +1,108 @@
+.hardware-container {
+  padding: 2rem;
+  background-color: #f4f9ff;
+  min-height: 100vh;
+  animation: fadeIn 0.5s ease-in;
+}
+
+.hardware-container h2 {
+  text-align: center;
+  color: #003366;
+  margin-bottom: 2rem;
+}
+
+.sensor-list {
+  display: flex;
+  flex-direction: column;
+  gap: 1.5rem;
+  max-width: 600px;
+  margin: auto;
+}
+
+.sensor-card {
+  background-color: #ffffff;
+  padding: 1rem 1.5rem;
+  border-radius: 10px;
+  box-shadow: 0 4px 10px rgba(0,0,0,0.1);
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  transition: transform 0.2s ease;
+}
+
+.sensor-card:hover {
+  transform: scale(1.02);
+}
+
+.sensor-info {
+  display: flex;
+  flex-direction: column;
+}
+
+.sensor-info h3 {
+  margin: 0;
+  color: #333;
+}
+
+.status-badge {
+  margin-top: 4px;
+  padding: 0.2rem 0.5rem;
+  border-radius: 5px;
+  font-size: 0.8rem;
+  font-weight: bold;
+  width: fit-content;
+}
+
+.status-badge.ok {
+  background-color: #c7f3d8;
+  color: #087f23;
+}
+
+.status-badge.offline {
+  background-color: #fddede;
+  color: #d32f2f;
+}
+
+.status-badge.degraded {
+  background-color: #fff8c4;
+  color: #9e7300;
+}
+
+button {
+  background-color: #0077cc;
+  color: white;
+  border: none;
+  padding: 0.5rem 1rem;
+  font-weight: bold;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background 0.3s ease;
+}
+
+button:hover {
+  background-color: #005fa3;
+}
+
+.popup {
+  position: fixed;
+  bottom: 30px;
+  left: 50%;
+  transform: translateX(-50%);
+  background-color: #0f3057;
+  color: white;
+  padding: 1rem 2rem;
+  border-radius: 8px;
+  box-shadow: 0 4px 15px rgba(0,0,0,0.3);
+  z-index: 1000;
+  animation: slideUp 0.3s ease;
+}
+
+@keyframes slideUp {
+  from { opacity: 0; transform: translate(-50%, 20px); }
+  to { opacity: 1; transform: translate(-50%, 0); }
+}
+
+@keyframes fadeIn {
+  from { opacity: 0 }
+  to { opacity: 1 }
+}

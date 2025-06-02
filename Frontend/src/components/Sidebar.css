@@ -1,0 +1,71 @@
+/* src/components/Sidebar.css */
+.sidebar {
+  width: 240px;
+  background-color: #003366;
+  color: white;
+  padding: 20px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  box-shadow: 3px 0 5px rgba(0, 0, 0, 0.2);
+}
+
+.sidebar-title {
+  font-size: 24px;
+  margin-bottom: 30px;
+  text-align: center;
+  font-weight: bold;
+  color: #ffffff;
+}
+
+.sidebar nav {
+  display: flex;
+  flex-direction: column;
+}
+
+.sidebar-link {
+  display: flex;
+  align-items: center;
+  padding: 12px 15px;
+  text-decoration: none;
+  color: white;
+  border-radius: 6px;
+  margin-bottom: 10px;
+  transition: all 0.3s ease;
+  font-size: 16px;
+}
+
+.sidebar-link:hover {
+  background-color: #0059b3;
+  transform: translateX(5px);
+  box-shadow: 0 0 10px rgba(0, 128, 255, 0.5);
+}
+
+.sidebar-link.active {
+  background-color: #007bff;
+}
+
+.sidebar-icon {
+  margin-right: 10px;
+  font-size: 18px;
+}
+
+.home-button {
+  margin-top: auto;
+  background-color: transparent;
+  color: white;
+  border: 1px solid white;
+  padding: 10px 15px;
+  border-radius: 6px;
+  cursor: pointer;
+  font-size: 16px;
+  transition: all 0.3s ease;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.home-button:hover {
+  background-color: #0059b3;
+  transform: scale(1.05);
+}
