@@ -51,8 +51,8 @@ const TransparentCard = ({ tab, onClose }) => {
           boxShadow: '0 4px 20px rgba(0,0,0,0.2)'
         }}
       >
-        <h2>{title}</h2>
-        <p style={{ marginTop: '1rem', fontSize: '1.1rem' }}>{content}</p>
+        <h2 style={{ color: '#000000' }}>{title}</h2>
+        <p style={{ marginTop: '1rem', fontSize: '1.1rem', color: '#111111' }}>{content}</p>
         <button onClick={onClose} style={{
           marginTop: '1.5rem',
           backgroundColor: '#00b4d8',

@@ -18,8 +18,8 @@ const InfoSection = () => {
         whileInView={{ opacity: 1, y: 0 }}
         transition={{ duration: 0.7 }}
       >
-        <h2 style={{ textAlign: 'center', fontSize: '2rem' }}>Why Choose Us?</h2>
-        <p style={{ maxWidth: '800px', margin: '1rem auto', fontSize: '1.2rem' }}>
+        <h2 style={{ textAlign: 'center', fontSize: '2rem', color: '#000000', fontWeight: 'bold' }}>Why Choose Us?</h2>
+        <p style={{ maxWidth: '800px', margin: '1rem auto', fontSize: '1.2rem', color: '#111111' }}>
           Our smart pipeline monitoring solution uses cutting-edge sensors, AI, and real-time analytics to detect and prevent leaks, ensuring safety and reducing environmental impact.
         </p>
       </motion.div>
@@ -31,8 +31,8 @@ const InfoSection = () => {
         transition={{ duration: 0.7, delay: 0.2 }}
         style={{ marginTop: '4rem', textAlign: 'center' }}
       >
-        <h2 style={{ fontSize: '2rem' }}>Advanced AI Integration</h2>
-        <p style={{ maxWidth: '800px', margin: '1rem auto', fontSize: '1.2rem' }}>
+        <h2 style={{ fontSize: '2rem', color: '#000000', fontWeight: 'bold' }}>Advanced AI Integration</h2>
+        <p style={{ maxWidth: '800px', margin: '1rem auto', fontSize: '1.2rem', color: '#111111' }}>
           With machine learning and predictive modeling, our system adapts in real time to pipeline behavior and external environmental changes.
         </p>
       </motion.div>
@@ -44,8 +44,8 @@ const InfoSection = () => {
         transition={{ duration: 0.7, delay: 0.4 }}
         style={{ marginTop: '4rem', textAlign: 'center' }}
       >
-        <h2 style={{ fontSize: '2rem' }}>Built for Real-World Use</h2>
-        <p style={{ maxWidth: '800px', margin: '1rem auto', fontSize: '1.2rem' }}>
+        <h2 style={{ fontSize: '2rem', color: '#000000', fontWeight: 'bold' }}>Built for Real-World Use</h2>
+        <p style={{ maxWidth: '800px', margin: '1rem auto', fontSize: '1.2rem', color: '#111111' }}>
           Rugged sensor integration, weather-proof systems, and a responsive dashboard make our solution ideal for industries across oil, gas, and water.
         </p>
       </motion.div>
