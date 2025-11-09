@@ -17,3 +17,5 @@ venv/
 Thumbs.db
 
 Backend\logs\prediction_log.csv
+
+__pycache__

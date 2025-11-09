@@ -12,7 +12,7 @@ A modern web-based system for detecting leaks in small pipeline networks using r
 ## 🚀 Tech Stack
 
 - **Frontend**: Vita + React, HTML & CSS   
-- **Backend**: FastAPI (Python)
+- **Backend**: FastAPI (Python) v3.13.5
 - **AI/ML**: Custom ML logic for prediction
 - **Tools**: Git, ML, Python, VS Code
 
@@ -24,7 +24,9 @@ A modern web-based system for detecting leaks in small pipeline networks using r
   > cd small-pipeline
 
 - ### Create virtual environment
-  > python -m venv venv
+  > py -3.13 -m venv venv 
+  
+  >(We are using python v3.13.5)
 
 - ### To Activate virtual environment for (Windows)
   > venv\Scripts\activate
