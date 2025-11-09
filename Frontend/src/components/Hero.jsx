@@ -4,7 +4,7 @@ import pipelineImage from '../assets/pipeline.jpg';
 const Hero = ({ onDashboardClick }) => {
   return (
     <div style={{ position: 'relative' }}>
-      <img src={pipelineImage} alt="Pipeline" style={{ width: '100%', height: '100vh', objectFit: 'cover' }} />
+      <img src={pipelineImage} alt="Pipeline" style={{ width: '100%', height: '69vh', objectFit: 'cover' }} />
       <div style={{
         position: 'absolute', top: '40%', left: '10%', color: 'white', background: 'rgba(0,0,0,0.6)', padding: '2rem', borderRadius: '10px'
       }}>

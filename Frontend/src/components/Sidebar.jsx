@@ -1,7 +1,6 @@
-// src/components/Sidebar.jsx
 import React from 'react';
 import { NavLink, useLocation, useNavigate } from 'react-router-dom';
-import { FaTachometerAlt, FaMicrochip, FaFileAlt, FaCogs, FaHome } from 'react-icons/fa';
+import { FaTachometerAlt, FaMicrochip, FaFileAlt, FaCogs, FaHome, FaWater } from 'react-icons/fa';
 import './Sidebar.css';
 
 const Sidebar = () => {
@@ -19,6 +18,12 @@ const Sidebar = () => {
         <NavLink to="/dashboard" className="sidebar-link">
           <FaTachometerAlt className="sidebar-icon" /> Dashboard
         </NavLink>
+
+        {/* ✅ New Silent Leak Control Button */}
+        <NavLink to="/silent-leak-control" className="sidebar-link">
+          <FaWater className="sidebar-icon" /> Silent Leak Control
+        </NavLink>
+
         <NavLink to="/hardware" className="sidebar-link">
           <FaMicrochip className="sidebar-icon" /> Hardware Control
         </NavLink>

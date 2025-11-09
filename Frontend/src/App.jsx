@@ -1,10 +1,9 @@
-// src/App.js
 import React from 'react';
 import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
 
-// Page Components
 import Home from './pages/Home';
 import Dashboard from './pages/Dashboard';
+import SilentLeakControl from './pages/SilentLeakControl';
 import HardwareControl from './pages/HardwareControl';
 import Logger from './pages/Logger';
 import Settings from './pages/Settings';
@@ -20,6 +19,7 @@ function App() {
           <Routes>
             <Route path="/" element={<Home />} />
             <Route path="/dashboard" element={<Dashboard />} />
+            <Route path="/silent-leak-control" element={<SilentLeakControl />} />
             <Route path="/hardware" element={<HardwareControl />} />
             <Route path="/logger" element={<Logger />} />
             <Route path="/settings" element={<Settings />} />
